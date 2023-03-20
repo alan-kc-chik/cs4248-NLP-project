@@ -32,7 +32,7 @@ def main():
     # model = CalibratedClassifierCV(ComplementNB(), cv=2, method='sigmoid')  # 0.850.0.567
     # model = BernoulliNB()                                                   # 0.778,0.596
     # model = CalibratedClassifierCV(BernoulliNB(), cv=2, method='isotonic')  # 0.786,0.593
-    model = CalibratedClassifierCV(BernoulliNB(), cv=3, method='sigmoid')  # 0.772,0.607
+    model = CalibratedClassifierCV(BernoulliNB(), cv=3, method='sigmoid')  # 0.781,0.610
 
     model.fit(X_train, y_train)
     y_pred = model.predict(X_train)
