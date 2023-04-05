@@ -96,7 +96,7 @@ class FeatureEngineer:
 
 fe = FeatureEngineer(tfidf=True, number_of_words=True, number_of_exclamatory=True, number_of_numbers=True)
 # fe = FeatureEngineer(tfidf=False,countvec=True,number_of_words=True, number_of_exclamatory=True)
-fe.encode(process_input_filename='process_train.csv', original_input_filename='./dataset/raw_data/fulltrain.csv',
-          output_filename='feature_train.csv')
-fe.encode(process_input_filename='process_test.csv', original_input_filename='./dataset/raw_data/balancedtest.csv',
-          output_filename='feature_test.csv', istrain=False)
+fe.encode(process_input_filename='../dataset/process_train.csv', original_input_filename='../dataset/fulltrain.csv',
+          output_filename='../dataset/feature_train.csv')
+fe.encode(process_input_filename='../dataset/process_test.csv', original_input_filename='../dataset/balancedtest.csv',
+          output_filename='../dataset/feature_test.csv', istrain=False)

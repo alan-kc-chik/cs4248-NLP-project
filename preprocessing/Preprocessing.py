@@ -94,9 +94,9 @@ tweet_tokenizer = TweetTokenizer()
 porter_stemmer = PorterStemmer()
 wordnet_lemmatizer = WordNetLemmatizer()
 
-process = Preprocess(tokenizer=tweet_tokenizer, lemmatizer=wordnet_lemmatizer, spell_check=False, output_filename='./process_train.csv',
-                    input_filename='./dataset/raw_data/fulltrain.csv')
+process = Preprocess(tokenizer=tweet_tokenizer, lemmatizer=wordnet_lemmatizer, spell_check=False, output_filename='../dataset/process_train.csv',
+                    input_filename='../dataset/fulltrain.csv')
 process.process()
-process = Preprocess(tokenizer=tweet_tokenizer, lemmatizer=wordnet_lemmatizer, spell_check=False, output_filename='./process_test.csv',
-                    input_filename='./dataset/raw_data/fulltrain.csv')
+process = Preprocess(tokenizer=tweet_tokenizer, lemmatizer=wordnet_lemmatizer, spell_check=False, output_filename='../dataset/process_test.csv',
+                    input_filename='../dataset/fulltrain.csv')
 process.process()
