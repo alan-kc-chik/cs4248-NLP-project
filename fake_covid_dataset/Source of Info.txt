@@ -1,3 +1,3 @@
-- corona_fake_cleaned.csv (500 real and 500 fake news, relabeled as Reliable News and Hoax, from https://github.com/susanli2016/NLP-with-Python/tree/master/data)
-- covid_propaganda_articles.csv (29 Propaganda articles manually copied from The Natural News)
-- covid_satire_articles.csv (31 Satire articles manually copied from The Onion)
+- 500 real and 500 fake news, relabeled as Reliable News and Hoax, from https://github.com/susanli2016/NLP-with-Python/tree/master/data
+- 29 Propaganda articles manually copied from The Natural News
+- 31 Satire articles manually copied from The Onion
