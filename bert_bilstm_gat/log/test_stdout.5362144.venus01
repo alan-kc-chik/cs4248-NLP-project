@@ -1,0 +1,16 @@
+{'train': 'data/fulltrain.csv', 'train_partition': '0', 'tune_from': '', 'test': 'data/balancedtest.csv', 'pte': '', 'freq_cutoff': 2, 'emb_dim': 128, 'hidden_dim': 100, 'node_emb_dim': 32, 'filters': 100, 'kernel_size': 3, 'max_epochs': 20, 'max_sent_len': 50, 'max_sents_in_a_doc': 10000, 'batch_size': 4, 'lr': 5e-05, 'dropout': 0.2, 'ntags': 4, 'weight_decay': 1e-05, 'encoder': 4, 'config': 'lstm_no_pte', 'model_file': 'model_gat_partition_1_epoch54.t7', 'plot': 0, 'use_ss': 0, 'mode': 1}
+Accuracy on the OOD test set 2: 0.528
+Precision on the OOD test set 2 macro / micro: 0.5327238617271918, 0.528
+Recall on the OOD test set 2 macro / micro: 0.528, 0.528
+F1 on the OOD test set 2 macro / micro: 0.5045798720335468, 0.528
+              precision    recall  f1-score   support
+
+           0       0.71      0.38      0.49       750
+           1       0.51      0.53      0.52       750
+           2       0.35      0.26      0.30       750
+           3       0.56      0.93      0.70       750
+
+    accuracy                           0.53      3000
+   macro avg       0.53      0.53      0.50      3000
+weighted avg       0.53      0.53      0.50      3000
+

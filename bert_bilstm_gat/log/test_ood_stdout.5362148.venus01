@@ -1,0 +1,16 @@
+{'train': 'data/fulltrain.csv', 'train_partition': '0', 'tune_from': '', 'test': 'data/covid_unreliable_news_cleaned_numbered.csv', 'pte': '', 'freq_cutoff': 2, 'emb_dim': 128, 'hidden_dim': 100, 'node_emb_dim': 32, 'filters': 100, 'kernel_size': 3, 'max_epochs': 20, 'max_sent_len': 50, 'max_sents_in_a_doc': 10000, 'batch_size': 4, 'lr': 5e-05, 'dropout': 0.2, 'ntags': 4, 'weight_decay': 1e-05, 'encoder': 4, 'config': 'lstm_no_pte', 'model_file': 'model_gat_partition_1_epoch54.t7', 'plot': 0, 'use_ss': 0, 'mode': 1}
+Accuracy on the OOD test set 2: 0.5416666666666666
+Precision on the OOD test set 2 macro / micro: 0.5984940872135994, 0.5416666666666666
+Recall on the OOD test set 2 macro / micro: 0.5373563218390804, 0.5416666666666666
+F1 on the OOD test set 2 macro / micro: 0.5052191166321601, 0.5416666666666666
+              precision    recall  f1-score   support
+
+           0       0.76      1.00      0.86        31
+           1       0.83      0.17      0.28        30
+           2       0.35      0.48      0.41        29
+           3       0.45      0.50      0.48        30
+
+    accuracy                           0.54       120
+   macro avg       0.60      0.54      0.51       120
+weighted avg       0.60      0.54      0.51       120
+
