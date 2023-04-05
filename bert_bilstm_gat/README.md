@@ -37,3 +37,6 @@
 6. The logs produced during the training and testing are available at `./log`
 
 
+## Note
+The code is adapted from https://github.com/MysteryVaibhav/fake_news_semantics/. 
+
