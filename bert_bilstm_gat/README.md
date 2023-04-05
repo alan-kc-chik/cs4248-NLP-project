@@ -14,7 +14,7 @@
    ```commandline
    ssh e0741024@atlas8.nus.edu.sg
    ```
-6. Execute the commands in `./EnvSetup.sh`
+6. Execute the commands in `./EnvSetup.sh` to resolve package dependencies  
 
 ## Model Training and Testing 
 1. Connect to the HPC cluster via SSH 
