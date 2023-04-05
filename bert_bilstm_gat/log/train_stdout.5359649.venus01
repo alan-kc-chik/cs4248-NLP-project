@@ -1,0 +1,229 @@
+{'train': 'data/fulltrain_1.csv', 'train_partition': '1', 'test': 'data/balancedtest.csv', 'pte': '', 'freq_cutoff': 2, 'emb_dim': 128, 'hidden_dim': 100, 'node_emb_dim': 32, 'filters': 100, 'kernel_size': 3, 'max_epochs': 100, 'max_sent_len': 50, 'max_sents_in_a_doc': 10000, 'batch_size': 4, 'lr': 3e-05, 'dropout': 0.2, 'ntags': 4, 'weight_decay': 1e-05, 'encoder': 4, 'config': 'gat', 'model_file': 'model_gat_adj_latest.t7', 'plot': 0, 'use_ss': 0, 'mode': 0}
+-----------gat-------------
+epoch = 1
+Epoch: 1, Train loss: 3470.48702185601, Train acc: 0.6564409286770854, Dev loss: 0.5167674671383307, Dev acc: 0.8261316872427984
+epoch = 2
+Epoch: 2, Train loss: 1886.1206833710894, Train acc: 0.8210817415910991, Dev loss: 0.3710378262237358, Dev acc: 0.8698559670781894
+epoch = 3
+Epoch: 3, Train loss: 1559.9618641994894, Train acc: 0.8467425557913693, Dev loss: 0.31401612758521497, Dev acc: 0.8870884773662552
+epoch = 4
+Epoch: 4, Train loss: 1416.1439962117001, Train acc: 0.8598623705704547, Dev loss: 0.2763458305237807, Dev acc: 0.900977366255144
+epoch = 5
+Epoch: 5, Train loss: 1315.6108716926537, Train acc: 0.8708598623705704, Dev loss: 0.25833584805145676, Dev acc: 0.9117798353909465
+epoch = 6
+Epoch: 6, Train loss: 1226.3872464927845, Train acc: 0.8801209080969837, Dev loss: 0.23887500823274208, Dev acc: 0.9184670781893004
+epoch = 7
+Epoch: 7, Train loss: 1151.7539969491772, Train acc: 0.8879027590198727, Dev loss: 0.2221215564638775, Dev acc: 0.926954732510288
+epoch = 8
+Epoch: 8, Train loss: 1116.8374403552152, Train acc: 0.8889960769181298, Dev loss: 0.2224297999646783, Dev acc: 0.9236111111111112
+epoch = 9
+Epoch: 9, Train loss: 1061.6314178984612, Train acc: 0.8958132355778506, Dev loss: 0.2083590730381344, Dev acc: 0.9248971193415638
+epoch = 10
+Epoch: 10, Train loss: 1021.1009642479476, Train acc: 0.9004437584410573, Dev loss: 0.20271112456263346, Dev acc: 0.9313271604938271
+epoch = 11
+Epoch: 11, Train loss: 983.6967313271016, Train acc: 0.902566081420027, Dev loss: 0.19345645675432788, Dev acc: 0.9318415637860082
+epoch = 12
+Epoch: 12, Train loss: 940.5880751387449, Train acc: 0.9053958453919866, Dev loss: 0.18487950314388232, Dev acc: 0.9323559670781894
+epoch = 13
+Epoch: 13, Train loss: 912.7708730580052, Train acc: 0.9102836195253714, Dev loss: 0.17540192619083955, Dev acc: 0.9403292181069959
+epoch = 14
+Epoch: 14, Train loss: 881.4117436567321, Train acc: 0.9130490706797865, Dev loss: 0.17340530931361312, Dev acc: 0.9421296296296297
+epoch = 15
+Epoch: 15, Train loss: 868.2300642906921, Train acc: 0.9168435269149141, Dev loss: 0.1669186666404729, Dev acc: 0.9436728395061729
+epoch = 16
+Epoch: 16, Train loss: 842.3411581038963, Train acc: 0.9202521062447746, Dev loss: 0.16573316095671867, Dev acc: 0.9465020576131687
+epoch = 17
+Epoch: 17, Train loss: 822.4756971257739, Train acc: 0.9282912084378416, Dev loss: 0.1632317791066761, Dev acc: 0.9457304526748971
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 18
+Epoch: 18, Train loss: 769.1504608852556, Train acc: 0.9322142903080584, Dev loss: 0.15072712831370677, Dev acc: 0.948559670781893
+epoch = 19
+Epoch: 19, Train loss: 750.5625465249177, Train acc: 0.932407228760692, Dev loss: 0.1530777425632176, Dev acc: 0.9513888888888888
+epoch = 20
+Epoch: 20, Train loss: 742.3969153880025, Train acc: 0.936844813171265, Dev loss: 0.14660403764638533, Dev acc: 0.9516460905349794
+epoch = 21
+Epoch: 21, Train loss: 744.1600109132705, Train acc: 0.9329217313010483, Dev loss: 0.14865620564233412, Dev acc: 0.95190329218107
+epoch = 22
+Epoch: 22, Train loss: 728.7731977106014, Train acc: 0.9373593157116213, Dev loss: 0.14518547998350823, Dev acc: 0.9511316872427984
+epoch = 23
+Epoch: 23, Train loss: 703.2467892903369, Train acc: 0.938516946427423, Dev loss: 0.14321204796270562, Dev acc: 0.9516460905349794
+epoch = 24
+Epoch: 24, Train loss: 707.9449310301279, Train acc: 0.938516946427423, Dev loss: 0.14938940655178037, Dev acc: 0.9511316872427984
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 25
+Epoch: 25, Train loss: 684.3774222077918, Train acc: 0.9408322078590263, Dev loss: 0.13930065182388335, Dev acc: 0.9557613168724279
+epoch = 26
+Epoch: 26, Train loss: 683.5095085786888, Train acc: 0.9399961412309473, Dev loss: 0.14040115622263652, Dev acc: 0.9534465020576132
+epoch = 27
+Epoch: 27, Train loss: 671.3459968229872, Train acc: 0.9405749565888482, Dev loss: 0.13922204845902317, Dev acc: 0.9565329218106996
+epoch = 28
+Epoch: 28, Train loss: 673.9540863408183, Train acc: 0.9404463309537591, Dev loss: 0.14070887863552178, Dev acc: 0.9544753086419753
+epoch = 29
+Epoch: 29, Train loss: 667.7269385926193, Train acc: 0.9421827770274616, Dev loss: 0.1338434705253592, Dev acc: 0.9575617283950617
+epoch = 30
+Epoch: 30, Train loss: 661.9032597084006, Train acc: 0.9436619718309859, Dev loss: 0.1392072109883884, Dev acc: 0.9560185185185185
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 31
+Epoch: 31, Train loss: 645.142613040196, Train acc: 0.9438549102836196, Dev loss: 0.13426346860308855, Dev acc: 0.9565329218106996
+epoch = 32
+Epoch: 32, Train loss: 640.1934833157866, Train acc: 0.942825905202907, Dev loss: 0.13308768202260868, Dev acc: 0.9570473251028807
+epoch = 33
+Epoch: 33, Train loss: 626.2812255479221, Train acc: 0.9468776127082128, Dev loss: 0.13707810180476596, Dev acc: 0.9549897119341564
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 34
+Epoch: 34, Train loss: 631.9959600605653, Train acc: 0.9457842948099556, Dev loss: 0.13434900546522136, Dev acc: 0.9555041152263375
+epoch = 35
+Epoch: 35, Train loss: 624.1886026272477, Train acc: 0.9475207408836581, Dev loss: 0.1349762422409926, Dev acc: 0.9549897119341564
+epoch = 36
+Epoch: 36, Train loss: 620.9240603395738, Train acc: 0.9453984179046884, Dev loss: 0.13353954521976766, Dev acc: 0.9560185185185185
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 37
+Epoch: 37, Train loss: 616.0809728550084, Train acc: 0.9456556691748665, Dev loss: 0.13323056314441417, Dev acc: 0.9575617283950617
+epoch = 38
+Epoch: 38, Train loss: 636.6979920501326, Train acc: 0.9434047205608078, Dev loss: 0.13367045078155443, Dev acc: 0.9570473251028807
+epoch = 39
+Epoch: 39, Train loss: 631.090931269573, Train acc: 0.9473278024310245, Dev loss: 0.13249027625643964, Dev acc: 0.9583333333333334
+epoch = 40
+Epoch: 40, Train loss: 626.4764826710889, Train acc: 0.9448196025467875, Dev loss: 0.13288281352734463, Dev acc: 0.9578189300411523
+epoch = 41
+Epoch: 41, Train loss: 598.4122147212183, Train acc: 0.9486783715994598, Dev loss: 0.13235560986767916, Dev acc: 0.9580761316872428
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 42
+Epoch: 42, Train loss: 618.5702083771175, Train acc: 0.94655604862049, Dev loss: 0.13231299105805772, Dev acc: 0.9578189300411523
+epoch = 43
+Epoch: 43, Train loss: 632.5872788996785, Train acc: 0.9448196025467875, Dev loss: 0.13174858879327433, Dev acc: 0.9578189300411523
+epoch = 44
+Epoch: 44, Train loss: 625.4455934256257, Train acc: 0.9475850537012026, Dev loss: 0.1321767456090574, Dev acc: 0.9580761316872428
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 45
+Epoch: 45, Train loss: 622.7642425549857, Train acc: 0.9475850537012026, Dev loss: 0.13220620059094212, Dev acc: 0.9583333333333334
+epoch = 46
+Epoch: 46, Train loss: 617.1971018552576, Train acc: 0.9468776127082128, Dev loss: 0.13219574333362352, Dev acc: 0.9583333333333334
+epoch = 47
+Epoch: 47, Train loss: 636.0395880627038, Train acc: 0.9470062383433018, Dev loss: 0.13228203070773015, Dev acc: 0.9578189300411523
+epoch = 48
+Epoch: 48, Train loss: 620.3906048505742, Train acc: 0.94655604862049, Dev loss: 0.13201342903615604, Dev acc: 0.9580761316872428
+epoch = 49
+Epoch: 49, Train loss: 629.3961854065128, Train acc: 0.9459129204450447, Dev loss: 0.1317767138455045, Dev acc: 0.9585905349794238
+epoch = 50
+Epoch: 50, Train loss: 613.8298660037108, Train acc: 0.9483568075117371, Dev loss: 0.1317802645429421, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 51
+Epoch: 51, Train loss: 618.1945831670309, Train acc: 0.9464917358029455, Dev loss: 0.1318255830199243, Dev acc: 0.9580761316872428
+epoch = 52
+Epoch: 52, Train loss: 631.7888465510769, Train acc: 0.9453341050871439, Dev loss: 0.13201038137435436, Dev acc: 0.9583333333333334
+epoch = 53
+Epoch: 53, Train loss: 627.4928906414425, Train acc: 0.944755289729243, Dev loss: 0.1319726770866491, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 54
+Epoch: 54, Train loss: 628.4907501467387, Train acc: 0.9442407871888867, Dev loss: 0.13192776723978264, Dev acc: 0.9585905349794238
+epoch = 55
+Epoch: 55, Train loss: 621.1522331605956, Train acc: 0.9468132998906682, Dev loss: 0.13183305385906283, Dev acc: 0.9580761316872428
+epoch = 56
+Epoch: 56, Train loss: 624.5530501107278, Train acc: 0.9451411666345103, Dev loss: 0.13176055809052004, Dev acc: 0.9580761316872428
+epoch = 57
+Epoch: 57, Train loss: 630.1558664439945, Train acc: 0.9473278024310245, Dev loss: 0.13185715597552158, Dev acc: 0.9580761316872428
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 58
+Epoch: 58, Train loss: 617.0554585731588, Train acc: 0.9475207408836581, Dev loss: 0.13187014279699522, Dev acc: 0.9580761316872428
+epoch = 59
+Epoch: 59, Train loss: 627.4386360351054, Train acc: 0.9455270435397775, Dev loss: 0.13188464090115737, Dev acc: 0.9578189300411523
+epoch = 60
+Epoch: 60, Train loss: 623.3542701415718, Train acc: 0.94655604862049, Dev loss: 0.13186287496390095, Dev acc: 0.9580761316872428
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 61
+Epoch: 61, Train loss: 618.4984262136859, Train acc: 0.9466203614380346, Dev loss: 0.13187604378408238, Dev acc: 0.9578189300411523
+epoch = 62
+Epoch: 62, Train loss: 609.5556430542056, Train acc: 0.9474564280661136, Dev loss: 0.1318841248632355, Dev acc: 0.9578189300411523
+epoch = 63
+Epoch: 63, Train loss: 627.4446708451069, Train acc: 0.9441764743713422, Dev loss: 0.13188055265507298, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 64
+Epoch: 64, Train loss: 620.2125874806661, Train acc: 0.9474564280661136, Dev loss: 0.13189836327511617, Dev acc: 0.9580761316872428
+epoch = 65
+Epoch: 65, Train loss: 627.5792605759925, Train acc: 0.9466203614380346, Dev loss: 0.13189490219543892, Dev acc: 0.9580761316872428
+epoch = 66
+Epoch: 66, Train loss: 616.8835972718953, Train acc: 0.9473278024310245, Dev loss: 0.13189639611811177, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 67
+Epoch: 67, Train loss: 634.159021022002, Train acc: 0.9450768538169657, Dev loss: 0.13189835069729103, Dev acc: 0.9578189300411523
+epoch = 68
+Epoch: 68, Train loss: 620.5144063075422, Train acc: 0.9485497459643707, Dev loss: 0.13190167808211542, Dev acc: 0.9578189300411523
+epoch = 69
+Epoch: 69, Train loss: 620.4681729093136, Train acc: 0.9485497459643707, Dev loss: 0.13189990824860245, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 70
+Epoch: 70, Train loss: 645.0897774745827, Train acc: 0.9441121615537976, Dev loss: 0.1319009710232983, Dev acc: 0.9578189300411523
+epoch = 71
+Epoch: 71, Train loss: 607.7429226034437, Train acc: 0.9486140587819152, Dev loss: 0.13189994090441767, Dev acc: 0.9578189300411523
+epoch = 72
+Epoch: 72, Train loss: 631.5570075952855, Train acc: 0.9459129204450447, Dev loss: 0.13190059584468208, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 73
+Epoch: 73, Train loss: 614.5626156772487, Train acc: 0.9479066177889254, Dev loss: 0.1319004352744779, Dev acc: 0.9578189300411523
+epoch = 74
+Epoch: 74, Train loss: 614.1437682098767, Train acc: 0.9459129204450447, Dev loss: 0.1319002765533251, Dev acc: 0.9578189300411523
+epoch = 75
+Epoch: 75, Train loss: 620.008155684045, Train acc: 0.9469419255257573, Dev loss: 0.13190046144403142, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 76
+Epoch: 76, Train loss: 630.112839963971, Train acc: 0.9462344845327674, Dev loss: 0.1319005217526775, Dev acc: 0.9578189300411523
+epoch = 77
+Epoch: 77, Train loss: 635.1635112485383, Train acc: 0.9471991767959355, Dev loss: 0.1319005426890509, Dev acc: 0.9578189300411523
+epoch = 78
+Epoch: 78, Train loss: 611.8398961470084, Train acc: 0.9466203614380346, Dev loss: 0.13190042426460663, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 79
+Epoch: 79, Train loss: 636.4836095330247, Train acc: 0.9457842948099556, Dev loss: 0.1319004267615476, Dev acc: 0.9578189300411523
+epoch = 80
+Epoch: 80, Train loss: 612.4193306632806, Train acc: 0.9470705511608464, Dev loss: 0.1319004444691325, Dev acc: 0.9578189300411523
+epoch = 81
+Epoch: 81, Train loss: 636.0246230019111, Train acc: 0.9461058588976783, Dev loss: 0.1319004414727554, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 82
+Epoch: 82, Train loss: 626.0271119353856, Train acc: 0.9477136793362917, Dev loss: 0.131900434925711, Dev acc: 0.9578189300411523
+epoch = 83
+Epoch: 83, Train loss: 614.63233312394, Train acc: 0.9475850537012026, Dev loss: 0.131900440170868, Dev acc: 0.9578189300411523
+epoch = 84
+Epoch: 84, Train loss: 617.2899339423748, Train acc: 0.9478423049713808, Dev loss: 0.13190043926948763, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 85
+Epoch: 85, Train loss: 616.3322559430671, Train acc: 0.9477136793362917, Dev loss: 0.13190043773644636, Dev acc: 0.9578189300411523
+epoch = 86
+Epoch: 86, Train loss: 629.8724508184805, Train acc: 0.9457842948099556, Dev loss: 0.13190043860165654, Dev acc: 0.9578189300411523
+epoch = 87
+Epoch: 87, Train loss: 611.5580559803348, Train acc: 0.94726348961348, Dev loss: 0.13190043821121009, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 88
+Epoch: 88, Train loss: 606.5537396110303, Train acc: 0.9482924946941925, Dev loss: 0.13190043965083165, Dev acc: 0.9578189300411523
+epoch = 89
+Epoch: 89, Train loss: 609.1044932584045, Train acc: 0.9479709306064699, Dev loss: 0.1319004361195669, Dev acc: 0.9578189300411523
+epoch = 90
+Epoch: 90, Train loss: 620.6005257057259, Train acc: 0.9457842948099556, Dev loss: 0.13190043662834497, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 91
+Epoch: 91, Train loss: 615.8667996825825, Train acc: 0.9468776127082128, Dev loss: 0.13190043713676372, Dev acc: 0.9578189300411523
+epoch = 92
+Epoch: 92, Train loss: 625.0421658008127, Train acc: 0.9451411666345103, Dev loss: 0.13190043666427562, Dev acc: 0.9578189300411523
+epoch = 93
+Epoch: 93, Train loss: 610.7085305986693, Train acc: 0.9479066177889254, Dev loss: 0.13190043729473885, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 94
+Epoch: 94, Train loss: 623.8279933763552, Train acc: 0.9458486076275001, Dev loss: 0.13190043888143657, Dev acc: 0.9578189300411523
+epoch = 95
+Epoch: 95, Train loss: 609.3145077352528, Train acc: 0.9474564280661136, Dev loss: 0.13190043841397875, Dev acc: 0.9578189300411523
+epoch = 96
+Epoch: 96, Train loss: 615.2841731163207, Train acc: 0.9479709306064699, Dev loss: 0.13190043777153865, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 97
+Epoch: 97, Train loss: 629.735443557991, Train acc: 0.94655604862049, Dev loss: 0.13190043807084098, Dev acc: 0.9578189300411523
+epoch = 98
+Epoch: 98, Train loss: 622.6054613022134, Train acc: 0.9460415460801338, Dev loss: 0.1319004370853829, Dev acc: 0.9578189300411523
+epoch = 99
+Epoch: 99, Train loss: 624.9075997769542, Train acc: 0.9453341050871439, Dev loss: 0.1319004367554197, Dev acc: 0.9578189300411523
+Dev accuracy did not increase, reducing the learning rate by 2 !!!
+epoch = 100
+Epoch: 100, Train loss: 611.4610550992365, Train acc: 0.94726348961348, Dev loss: 0.13190043823911624, Dev acc: 0.9578189300411523
+-----------------------------------------
+{'data_loading': 11.280742986011319, 'gat': 14650.221229522023}
+Total time taken (in seconds): 14667.193000369007
